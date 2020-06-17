@@ -1,0 +1,29 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#CSSscam{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 0.5em;
+}
+
+#CSSbuyone{
+    font-size: 1.25em;
+}
+
+#CSSbuyone button{
+    background-color: #dcdcdc;
+    color: black;
+    font-size: 16px;
+    border: 2px solid #dcdcdc;
+}
+
+#CSSbuyone button:hover{
+    background-color: #b9b9b9;
+}
+
+#CSSbuyone button:active{
+    background-color: white;
+}
