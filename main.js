@@ -4,10 +4,6 @@ var rcost1 = 10;
 var cost2 = 20;
 var rcost2 = 20;
 
-function letsGoGoGo(){
-    document.getElementById("preloader").style.visibility='hidden';
-}
-
 function click1(){
     if (stuff[0] >= cost1) {
         stuff[0] -= cost1;
