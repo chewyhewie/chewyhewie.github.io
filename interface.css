@@ -47,3 +47,15 @@
 #buyStuffTings p{
     text-align: center;
 }
+
+#testing{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#savenstuff{
+    position: absolute;
+    top: 0;
+    right: 0;
+}

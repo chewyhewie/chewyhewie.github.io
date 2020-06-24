@@ -4,10 +4,16 @@
         <link rel="stylesheet" type="text/css" href="interface.css"/>
         <title>S.A.D S.C.A.M</title>
     </head>
-    <body>
+    <body onload="loading()">
+        <script src="break.js"></script>
         <script src="main.js"></script>
+        
 
         <h1>Hello World</h1>
+
+        <div id="savenstuff">
+            <button onclick="savetolocal()">save</button>
+        </div>
         
         <p id = "CSSmoney">Monies: <span id = "currentMoney">10</span></p>
         
@@ -29,6 +35,12 @@
         
         </div>
 
+        <button onclick="make()" id="maketh">make</button>
+
         <p id="CSSscam">I wonder what S.A.D stands for</p>
+        <div id="testing">
+            <button id="reset" onclick="reset()">PRESS IF U DARE</button>
+            <button id="free" onclick="freestuff()">GET SOME</button>
+        </div>
     </body>
 </html>
