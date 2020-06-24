@@ -11,9 +11,9 @@ var cost2 = new Number(2,1);
 
 function reset(){
     localStorage.clear();
-    change(buy0,1,1);
-    change(buy1,0,1);
-    change(buy2,0,0);
+    change(stuff[0],1,1);
+    change(stuff[1],0,1);
+    change(stuff[2],0,0);
     change(cost1,1,1);
     change(cost2,2,1);
     updateall();       
